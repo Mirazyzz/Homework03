@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int.TryParse(Console.ReadLine(), out int firstNumber);
+            int.TryParse(Console.ReadLine(), out int secondNumber);
+
+            Console.WriteLine($"Javob: {firstNumber} + {secondNumber} = {firstNumber + secondNumber}.");
         }
     }
 }
