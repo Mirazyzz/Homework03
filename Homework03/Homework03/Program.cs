@@ -7,7 +7,7 @@
             int.TryParse(Console.ReadLine(), out int firstNumber);
             int.TryParse(Console.ReadLine(), out int secondNumber);
 
-            Console.WriteLine(firstNumber + secondNumber);
+            Console.WriteLine($"Javob: {firstNumber} + {secondNumber} = {firstNumber + secondNumber}.");
         }
     }
 }
