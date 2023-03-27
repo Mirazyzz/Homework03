@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int firstNumber = int.Parse(Console.ReadLine());
-            int secondNumber = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int firstNumber);
+            int.TryParse(Console.ReadLine(), out int secondNumber);
 
             Console.WriteLine(firstNumber + secondNumber);
         }
